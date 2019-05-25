@@ -24,6 +24,7 @@ int main(){
 		printw("%c", ch);
 		attroff(A_BOLD);
 	}
+	mvaddch(4,5,'a');
 	refresh();
 	getch();
 	endwin();
